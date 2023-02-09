@@ -14,10 +14,10 @@ export function landingPage(){
     titleDesc.textContent = "The Best Chicken In Town"
 
     const locationOne = document.createElement('div');
-    locationOne.innerHTML = "<h4>Stavanger</h4><h5>Chicken Street</h5>"
+    locationOne.innerHTML = "<h3>Stavanger</h3><h5>Chicken Street</h5>"
 
     const locationTwo = document.createElement('div');
-    locationTwo.innerHTML = "<h4>Oslo</h4><h5>Chicken Wing Street</h5>"
+    locationTwo.innerHTML = "<h3>Oslo</h3><h5>Chicken Wing Street</h5>"
 
     const locations = document.createElement('div');
     locations.style = "display: flex; justify-content: space-between; text-align: center;"
